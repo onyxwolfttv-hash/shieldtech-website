@@ -169,13 +169,14 @@ From initial design to ongoing optimization, our network engineers create infras
     },
 }
 
-
 const ServicePage = () => {
     const { serviceId } = useParams()
+    const service = serviceData[serviceId]
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [serviceId])
+
     if (!service) {
         return (
             <div className="min-h-screen bg-black flex items-center justify-center">
