@@ -169,7 +169,6 @@ From initial design to ongoing optimization, our network engineers create infras
     },
 }
 
-import { useEffect } from 'react'
 
 const ServicePage = () => {
     const { serviceId } = useParams()
