@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
+import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowLeft, Check, Phone, Mail, MapPin } from 'lucide-react'
 import { Monitor, Shield, Cloud, Headphones, Phone as PhoneIcon, Network } from 'lucide-react'
@@ -168,10 +169,14 @@ From initial design to ongoing optimization, our network engineers create infras
     },
 }
 
+import { useEffect } from 'react'
+
 const ServicePage = () => {
     const { serviceId } = useParams()
-    const service = serviceData[serviceId]
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [serviceId])
     if (!service) {
         return (
             <div className="min-h-screen bg-black flex items-center justify-center">
