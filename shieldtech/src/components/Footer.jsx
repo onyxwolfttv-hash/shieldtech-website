@@ -121,25 +121,25 @@ const Footer = () => {
                   className="flex items-center gap-3 text-gray-500 hover:text-gold transition-colors duration-300 text-sm"
                 >
                   <Phone size={16} className="text-gold/60" />
-                  (555) 123-4567
+                  (334) 209-3344
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@shieldtechinc.com"
+                  href="mailto:info@shieldtechus.com"
                   className="flex items-center gap-3 text-gray-500 hover:text-gold transition-colors duration-300 text-sm"
                 >
                   <Mail size={16} className="text-gold/60" />
-                  info@shieldtechinc.com
+                  info@shieldtechus.com
                 </a>
               </li>
               <li>
                 <div className="flex items-start gap-3 text-gray-500 text-sm">
                   <MapPin size={16} className="text-gold/60 mt-0.5 flex-shrink-0" />
                   <span>
-                    123 Technology Drive<br />
-                    Suite 400<br />
-                    Business City, ST 12345
+                    223 S Cedar Ave<br />
+                    Suite 223<br />
+                    Demopolis, AL 36732
                   </span>
                 </div>
               </li>
