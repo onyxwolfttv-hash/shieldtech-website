@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import ServicePage from './components/ServicePage'
+import CompliancePage from './components/CompliancePage'
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/services/:serviceId" element={<ServicePage />} />
+                <Route path="/compliance/:complianceId" element={<CompliancePage />} />
             </Routes>
             <Footer />
         </div>
