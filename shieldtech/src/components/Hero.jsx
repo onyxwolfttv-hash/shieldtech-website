@@ -59,7 +59,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="font-display text-5xl md:text-7xl lg:text-8xl font-light leading-tight mb-6"
                 >
-                    Elevating Your
+                    Protecting Your
                     <span className="block font-semibold text-gold mt-2">
                         Digital Infrastructure
                     </span>
